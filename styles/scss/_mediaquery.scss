@@ -88,6 +88,9 @@ $xxl: 1400px;
 @media only screen   and (max-width: $sm){
     .grillaIconos{
         grid-template-columns: 1fr 1fr;
+        grid-gap: 0;
+        min-width: 15rem;
+        justify-content: flex-start;
         .espacioGrilla{
             // grid-column-start: 0;
             // grid-column-end: 0;
@@ -95,9 +98,23 @@ $xxl: 1400px;
             grid-row-end: 8;
         }
     }
-    header .flecha{
-        top:60vh;
-    }
+    header{
+        overflow-x: hidden;
+        .fotoGus{
+            position: absolute;
+            margin: 1rem;
+        }
+        .textoEncabezado{
+            height: 50vh;
+            span{
+                font-size: 1.5rem;
+            }
+        }
+        .flecha{
+            top:50vh;
+            right: 10%;
+        }
+    } 
     // .trabajos{
     //     margin-bottom: 25rem;
     // }

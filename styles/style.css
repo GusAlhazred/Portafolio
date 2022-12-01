@@ -200,7 +200,7 @@ header .flecha::before {
 .grillaIconos .contIcono {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
 }
@@ -304,12 +304,29 @@ header .flecha::before {
 @media only screen and (max-width: 576px) {
   .grillaIconos {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+    min-width: 15rem;
+    justify-content: flex-start;
   }
   .grillaIconos .espacioGrilla {
     grid-row-start: 7;
     grid-row-end: 8;
   }
+  header {
+    overflow-x: hidden;
+  }
+  header .fotoGus {
+    position: absolute;
+    margin: 1rem;
+  }
+  header .textoEncabezado {
+    height: 50vh;
+  }
+  header .textoEncabezado span {
+    font-size: 1.5rem;
+  }
   header .flecha {
-    top: 60vh;
+    top: 50vh;
+    right: 10%;
   }
 }/*# sourceMappingURL=style.css.map */
