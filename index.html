@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="./img/logos/portfolio.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="container-fluid d-flex aling-items-center">
+        <img src="./img/header_fondo.svg" alt="" class="fondoHeader">
+        <div class="textoEncabezado col-md-6">
+            <h1>Hi! I'm Gustavo,</h1>
+            <h1>
+                <a href="" class="typewrite" data-period="2000"
+                    data-type='[ "Front-End Dev", "an APP lover", "Software enthusiast", "Lets make some noice" ]'>
+                    <span class="wrap"></span>
+                </a>
+            </h1>
+        </div>
+        <div class="imagen col row">
+            <img src="./img/space.svg" alt="" class="fotoGus ">
+            <!-- <div class="encuadro col"></div> -->
+
+        </div>
+            <a href="#ancla">
+                <div class="flecha"></div>
+            </a>
+    </header>
+    <main>
+        <!-------------------Barra Navegacion-------------------->
+        <nav class="navBarGrande">
+            <ul>
+                <li><a href="#aboutMe">
+                        <div class="botonNav">About me</div>
+                    </a></li>
+                <li><a href="#tech">
+                        <div class="botonNav">Tech</div>
+                    </a></li>
+                <li><a href="#myWork">
+                        <div class="botonNav">My Work</div>
+                    </a></li>
+                <li><a href="#contact">
+                        <div class="botonNav">Contact me!</div>
+                    </a></li>
+            </ul>
+        </nav>
+        <!-------------------Barra Responsive-------------------->
+        <!-- <div class="navBarChica sticky-top d-md-block d-lg-none"> -->
+        <!-- <div>
+            <div class="d-block"> 
+                 <nav class="navbar navbar-dark bg-transparent d-block">
+                    <div class="">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Navigation</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body bg-dark">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" >
+                                    <li class="nav-item"><a href="#aboutMe"><div class="resaltarHover">About me</div></a></li>
+                                    <li class="nav-item"><a href="#tech"><div class="resaltarHover">Tech</div></a></li>
+                                    <li class="nav-item"><a href="#myWork"><div class="resaltarHover">My Work</div></a></li>
+                                    <li class="nav-item"><a href="#contact"><div class="resaltarHover">Contact me!</div></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>        
+            </div> -->
+        <!-- <div class="barraChica">
+                <div class="botonToggle">
+                    <div class="palito palitoSuperiorStandar" id="palitoSup"></div>
+                    <div class="palito palitoInferiorStandar" id="palitoInf"></div>
+                </div>
+            </div> -->
+
+
+        <!-- </div> -->
+        <!-- <div class="menuNav d-flex justify-content-end ">
+            <ul class="pe-3" >
+                <li class="nav-item"><a href="#aboutMe"><div class="resaltarHover">About me</div></a></li>
+                <li class="nav-item"><a href="#tech"><div class="resaltarHover">Tech</div></a></li>
+                <li class="nav-item"><a href="#myWork"><div class="resaltarHover">My Work</div></a></li>
+                <li class="nav-item"><a href="#contact"><div class="resaltarHover">Contact me!</div></a></li>
+            </ul>
+        </div> -->
+
+        <div class="container-fluid sticky-top navBarChica" id="navBarraChica">
+            <nav class="navbar navbar-dark  ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Sections</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul>
+                                <li><a href="#aboutMe">
+                                        <div class="botonNav resaltarHover">About me</div>
+                                    </a></li>
+                                <li><a href="#tech">
+                                        <div class="botonNav resaltarHover">Tech</div>
+                                    </a></li>
+                                <li><a href="#myWork">
+                                        <div class="botonNav resaltarHover">My Work</div>
+                                    </a></li>
+                                <li><a href="#contact">
+                                        <div class="botonNav resaltarHover">Contact me!</div>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <!------------------------------Sobre Mi---------------------------------->
+
+        <article class="container p-3 m-3  rounded" id="ancla">
+            <h2 id="aboutMe"><i class="fa-solid fa-rocket"></i> About me:</h2>
+            <p>Hey! My name is Gustavo. I love coding since I was at high school.</p>
+            <p>Last year, I found out the web world and I guess I'll be here for a while. Isnt it awesome? You can code
+                any tool you need and use it anywhere you are without downloading anything! Its like magic!</p>
+            <p>Now I'm learning and specialating my self about front-end, but I would like to understand and learn a
+                little more of back-end too in the future, to be able to see the whole picture easily</p>
+            <p>I also enjoy to:</p>
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fa-solid fa-rocket"></i></span> Spent time with my family and friends
+                </li>
+                <li><span class="fa-li"><i class="fa-solid fa-rocket"></i></span> Have a walk at the evening</li>
+                <li><span class="fa-li"><i class="fa-solid fa-rocket"></i></span> Playing role play games (Board Game or
+                    Online)</li>
+                <li><span class="fa-li"><i class="fa-solid fa-rocket"></i></span> Know new people</li>
+                <li><span class="fa-li"><i class="fa-solid fa-rocket"></i></span> Listen to / read awesome stories</li>
+            </ul>
+        </article>
+
+        <!------------------------------Tecnologias---------------------------------->
+
+        <article class="container p-3 m-3 rounded">
+            <h2 id="tech"><i class="fa-solid fa-microchip"></i> Tech</h2>
+            <p>Here are some technologies I often use:</p>
+            <div class="contGrilla d-flex justify-content-center justify-content-sm-start justify-content-md-center">
+                <div class="grillaIconos">
+                    <div class="contIcono">
+                        <img src="./img/logos/HTML5_Logo.svg" alt="" class="iconoTecnologia">
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="contIcono">
+                        <img src="./img/logos/CSS3_logo_and_wordmark.svg" alt="" class="iconoTecnologia">
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="contIcono">
+                        <img src="./img/logos/Unofficial_JavaScript_logo_2.svg" alt="" class="iconoTecnologia">
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="contIcono">
+                        <img src="./img/logos/Bootstrap_logo.svg" alt="" class="iconoTecnologia">
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="contIcono">
+                        <img src="./img/logos/Sass_Logo_Color.svg" alt="" class="iconoTecnologia">
+                        <h3>SASS</h3>
+                    </div>
+                    <div class="contIcono">
+                        <img src="./img/logos/nodejs-icon.svg" alt="" class="iconoTecnologia">
+                        <h3>Node.Js</h3>
+                    </div>
+                    <div class="contIcono">
+                        <img src="./img/logos/Npm-logo.svg" alt="" class="iconoTecnologia">
+                        <h3>npm</h3>
+                    </div>
+                    <div class="contIcono">
+                        <img src="./img/logos/Git-logo.svg" alt="" class="iconoTecnologia">
+                        <h3>Git</h3>
+                    </div>
+                    <div class="contIcono espacioGrilla">
+                        <h3></h3>
+                    </div>
+                    <div class="contIcono">
+                        <img src="./img/logos/Octicons-mark-github.svg" alt="" class="iconoTecnologia">
+                        <h3>GitHub</h3>
+                    </div>
+                    <div class="contIcono">
+                        <img src="./img/logos/React-icon.svg" alt="" class="iconoTecnologia">
+                        <h3>ReactJs</h3>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <p>About web, I also have some knowledges on:</p>
+                    <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fa-solid fa-microchip"></i></span> Host</li>
+                        <li><span class="fa-li"><i class="fa-solid fa-microchip"></i></span> SEO</li>
+                        <li><span class="fa-li"><i class="fa-solid fa-microchip"></i></span> Figma</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <p>And about coding in general, I also know a little bit of:</p>
+                    <div class="row">
+                        <div class="col">
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fa-solid fa-microchip"></i></span> .net</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-microchip"></i></span> Pascal</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-microchip"></i></span> Object Pascal</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fa-solid fa-microchip"></i></span> C</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-microchip"></i></span> mySQL</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-microchip"></i></span> Arduino</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!------------------------------Proyectos---------------------------------->
+
+        <article class="container p-3 rounded trabajos">
+            <h2 id="myWork"><i class="fa-solid fa-code-fork"></i> My Work</h2>
+            <P>Here there are some proyects that I was working on</P>
+            <div class="d-flex flex-lg-row flex-column justify-content-evenly">
+                <div class="cardProyecto">
+                    <img src="" alt="">
+                    <h3>To-Do List</h3>
+                    <p></p>
+                </div>
+                <div class="cardProyecto">
+                    <img src="" alt="">
+                    <h3>Clima APP</h3>
+                    <p></p>
+                </div>
+                <div class="cardProyecto">
+                    <img src="" alt="">
+                    <h3>Pochoklo</h3>
+                    <p></p>
+                </div>
+            </div>
+        </article>
+
+        <!------------------------------Redes---------------------------------->
+        <img src="./img/wave.svg" alt="" class="topContactos">
+        <article class="container-fluid p-5 contactos">
+            <h2 id="contact"><i class="fa-solid fa-comments"></i> Contact</h2>
+            <p>You can find on:</p>
+            <div class="container row d-flex flex-lg-row flex-column">
+                <a href="mailto:gcmartinez35@gmail.com" class="col">
+                    <div class="metodoContacto d-flex col justify-content-center">
+                        <i class="fa-solid fa-envelope fs-1 mail"></i>
+                        <p class="lh-lg ms-3 mail">gcmartinez35@gmail.com</p>
+                    </div>
+                </a>
+                <a href="" class="col">
+                    <div class="metodoContacto d-flex justify-content-center">
+                        <i class="fa-solid fa-mobile-screen-button fs-1"></i>
+                        <p class="lh-lg ms-3">+54 9 11 5666 5058</p>
+                    </div>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5491138950101" target="_blank" class="col">
+                    <div class="metodoContacto d-flex col justify-content-center">
+                        <i class="fa-brands fa-square-whatsapp fs-1 wsapp"></i>
+                        <p class="lh-lg ms-3 wsapp">+54 9 11 3895 0101</p>
+                    </div>
+                </a>
+
+            </div>
+            <div class="container row d-flex flex-lg-row flex-column justify-content-evenly">
+                <a href="https://github.com/GusAlhazred" target="_blank" class="col">
+                    <div class="metodoContacto d-flex col justify-content-center">
+                        <i class="fa-brands fa-github fs-1 github"></i>
+                        <p class="lh-lg ms-3">@GusAlhazred</p>
+                    </div>
+                </a>
+                <a href="" class="col">
+                    <div class="metodoContacto d-flex col justify-content-center">
+                        <i class="fa-brands fa-linkedin fs-1 justify-content-center linkedin"></i>
+                        <p class="ms-3 lh-lg linkedin">Linkedin</p>
+                    </div>
+                </a>
+
+            </div>
+        </article>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+    </script>
+    <script src="./js/efectoEscritura.js"></script>
+    <script src="./js/botonHamburguesa.js"></script>
+</body>
+
+</html>

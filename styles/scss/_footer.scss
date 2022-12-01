@@ -1,0 +1,72 @@
+.topContactos{
+    width: 100vw;
+    margin-top: -600px;
+}
+.contactos{
+    background-color: #0066FF;
+    box-shadow: none;
+    p,i{
+        transition: 200ms;
+    }
+    a:hover{
+        p, i{
+            text-shadow:    .2rem 0 .2rem $gris,
+            0 .2rem .2rem $gris,
+            -.2rem  0 .2rem $gris,
+            0 -.2rem .2rem $gris,
+            1rem 0 1rem rgba(187, 187, 187, .3),
+            -1rem 0 1rem rgba(187, 187, 187, .3),
+            0 -1rem 1rem rgba(187, 187, 187, .3),
+            0 1rem 1rem rgba(187, 187, 187, .3);
+        }
+        .mail{
+            text-shadow:    .3rem 0 .3rem #DB4437,
+            0 .3rem .3rem #DB4437,
+            -.3rem  0 .3rem #DB4437,
+            0 -.3rem .3rem #DB4437,
+            1rem 0 1rem rgba(187, 187, 187, .3),
+            -1rem 0 1rem rgba(187, 187, 187, .3),
+            0 -1rem 1rem rgba(187, 187, 187, .3),
+            0 1rem 1rem rgba(187, 187, 187, .3);
+        }
+        .wsapp{
+            color: #25D366;
+        }
+        i.wsapp{
+            text-shadow:    .4rem 0 .6rem $blanco,
+            0 .4rem .6rem $blanco,
+            -.4rem  0 .6rem $blanco,
+            0 -.4rem .6rem $blanco,
+            1rem 0 1rem rgba(187, 187, 187, .3),
+            -1rem 0 1rem rgba(187, 187, 187, .3),
+            0 -1rem 1rem rgba(187, 187, 187, .3),
+            0 1rem 1rem rgba(187, 187, 187, .3);
+        }
+
+        .github{
+            color: $gris;
+            text-shadow:    .2rem 0 .2rem $blanco,
+            0 .2rem .2rem $blanco,
+            -.2rem  0 .2rem $blanco,
+            0 -.2rem .2rem $blanco,
+            1rem 0 1rem rgba(187, 187, 187, .3),
+            -1rem 0 1rem rgba(187, 187, 187, .3),
+            0 -1rem 1rem rgba(187, 187, 187, .3),
+            0 1rem 1rem rgba(187, 187, 187, .3);
+        }
+        .linkedin{
+            text-shadow:    .4rem 0 .6rem $blanco,
+            0 .4rem .6rem $blanco,
+            -.4rem  0 .6rem $blanco,
+            0 -.4rem .6rem $blanco,
+            1rem 0 1rem rgba(187, 187, 187, .3),
+            -1rem 0 1rem rgba(187, 187, 187, .3),
+            0 -1rem 1rem rgba(187, 187, 187, .3),
+            0 1rem 1rem rgba(187, 187, 187, .3);
+        }
+        i.linkedin{
+            color: #4267B2;
+        }
+    }
+}
+

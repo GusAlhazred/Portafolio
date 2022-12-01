@@ -1,0 +1,56 @@
+@import "./scss/variables";
+
+*{
+    margin: 0;
+    padding: 0;
+    color: $blanco
+}
+
+html{
+    font-size: 24px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+    overflow-x: hidden;
+}
+h1{
+    text-shadow: .1rem .1rem .5rem $gris;
+}
+a{
+    text-decoration: none;
+    color:$blanco;
+}
+
+
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:     
+        radial-gradient( transparent 10%, $negro 90%),
+        // url(../img/stars.svg),
+        linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+ul{
+    list-style: none;
+}
+
+article{
+    background-color: $gris;
+    box-shadow: inset -3px -3px 30px $negro,
+                inset 1px 1px 10px $blanco,
+                10px 10px 10px $negro
+                ;
+}
+
+
+@import "./scss/scrollBar";
+@import "./scss/encabezado";
+@import "./scss/barraNavegacion";
+@import "./scss/grillaIconos";
+@import "./scss/footer";
+
+@import "./scss/mediaquery";

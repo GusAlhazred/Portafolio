@@ -1,0 +1,104 @@
+
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+@media only screen   and (max-width: $xl){
+    html{
+        font-size: 20px;
+    }
+    .trabajos{
+        margin-bottom: 7rem;
+    }
+
+}
+
+@media only screen and (max-width: $lg){
+    html{
+
+        scroll-padding-top: 2.7rem;
+    }
+    .navBarGrande{
+        position: fixed;
+        visibility: hidden;
+    }
+    .navBarChica{
+        visibility: visible;
+    }
+    .trabajos{
+        margin-bottom: 10rem;
+    }
+    // header .flecha::before{
+    //     top: -100%;
+    //     left: -100%;
+    // }
+}
+
+@media only screen and (max-width: $md){
+    html{
+        scroll-margin-block-start: 4rem;
+    }
+    header{
+        // background:$negro;
+        // height: 100vh;
+        align-items: flex-end;
+        .textoEncabezado{
+            height: 30vh;
+        }
+        .imagen{
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            left: 0;
+            .encuadro{
+                right: auto;
+                left: 0;
+            }
+        }
+        .fotoGus{
+            width: 100vw;
+        }
+        .flecha{
+            top: 80vh;
+            right: 5%;
+            animation-duration: 500ms;
+            z-index: auto;
+            // &::before{
+            //     padding: 2rem;
+            //     top: -75%;
+            //     left: -100%;
+            // }
+        }
+    }
+    
+    .trabajos{
+        margin-bottom: 20rem;
+    }
+}
+
+// @media only screen and (max-width: 690px) {
+//     header .flecha::before{
+//         padding: 1.5rem;
+//     }
+// }
+
+@media only screen   and (max-width: $sm){
+    .grillaIconos{
+        grid-template-columns: 1fr 1fr;
+        .espacioGrilla{
+            // grid-column-start: 0;
+            // grid-column-end: 0;
+            grid-row-start: 7;
+            grid-row-end: 8;
+        }
+    }
+    header .flecha{
+        top:60vh;
+    }
+    // .trabajos{
+    //     margin-bottom: 25rem;
+    // }
+}

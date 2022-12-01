@@ -1,0 +1,24 @@
+
+::-webkit-scrollbar{
+    width: .8rem;
+    background-color: $negro;
+}
+
+::-webkit-scrollbar-corner{
+    background-color: $negro;
+}    
+::-webkit-resizer{
+    background-color: $negro;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: $gris;
+    border-left: solid .1rem $blanco;
+}
+::-webkit-scrollbar-thumb{
+    background-color: $azul;
+    border-left: solid .1rem $blanco;
+    border-right: solid .1rem $gris;
+    border-radius: 10px;
+}
