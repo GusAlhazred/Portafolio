@@ -22,7 +22,7 @@ $xxl: 1400px;
         scroll-padding-top: 2.7rem;
     }
     .navBarGrande{
-        position: fixed;
+        position: absolute;
         visibility: hidden;
     }
     .navBarChica{
@@ -39,7 +39,7 @@ $xxl: 1400px;
 
 @media only screen and (max-width: $md){
     html{
-        scroll-padding-top: 1.5rem;
+        scroll-padding-top: 2rem;
     }
     header{
         // background:$negro;

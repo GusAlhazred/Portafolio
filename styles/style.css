@@ -36,7 +36,7 @@ ul {
 
 article {
   background-color: #333;
-  box-shadow: inset -3px -3px 30px #001220, inset 1px 1px 10px #bbb, 10px 10px 10px #001220;
+  box-shadow: inset -3px -3px 30px #001220, inset 1px 1px 10px #bbb, 0 10px 10px #001220;
 }
 
 ::-webkit-scrollbar {
@@ -257,7 +257,7 @@ header .flecha::before {
     scroll-padding-top: 2.7rem;
   }
   .navBarGrande {
-    position: fixed;
+    position: absolute;
     visibility: hidden;
   }
   .navBarChica {
@@ -269,7 +269,7 @@ header .flecha::before {
 }
 @media only screen and (max-width: 768px) {
   html {
-    scroll-padding-top: 1.5rem;
+    scroll-padding-top: 2rem;
   }
   header {
     align-items: flex-end;
