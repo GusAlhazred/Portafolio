@@ -269,7 +269,7 @@ header .flecha::before {
 }
 @media only screen and (max-width: 768px) {
   html {
-    scroll-margin-block-start: 4rem;
+    scroll-padding-top: 1.5rem;
   }
   header {
     align-items: flex-end;

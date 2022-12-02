@@ -39,7 +39,7 @@ $xxl: 1400px;
 
 @media only screen and (max-width: $md){
     html{
-        scroll-margin-block-start: 4rem;
+        scroll-padding-top: 1.5rem;
     }
     header{
         // background:$negro;
