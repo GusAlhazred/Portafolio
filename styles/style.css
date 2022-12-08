@@ -344,4 +344,7 @@ header .flecha::before {
     top: 20vh;
     right: 30%;
   }
+  .contactos p {
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=style.css.map */

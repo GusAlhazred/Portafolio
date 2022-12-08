@@ -1,7 +1,13 @@
 .topContactos{
     width: 100vw;
     margin-top: -600px;
+    // animation: tide 2s infinite;
+    // animation-timing-function: linear;
 }
+// @keyframes tide {
+//     from {transform: translateX(0);}
+//     to {transform: translateX(100%);}
+// }
 .contactos{
     background-color: #0066FF;
     box-shadow: none;
