@@ -76,6 +76,7 @@ header {
   background: radial-gradient(transparent 35%, #001220 90%);
   background-size: contain;
   text-align: center;
+  overflow: hidden;
 }
 header .fondoHeader {
   height: 100vh;
@@ -305,8 +306,8 @@ header .flecha::before {
     width: 100vw;
   }
   header .flecha {
-    top: 80vh;
-    right: 5%;
+    top: 50vh;
+    right: 25%;
     -webkit-animation-duration: 500ms;
             animation-duration: 500ms;
     z-index: auto;
@@ -340,7 +341,7 @@ header .flecha::before {
     font-size: 1.5rem;
   }
   header .flecha {
-    top: 50vh;
-    right: 10%;
+    top: 20vh;
+    right: 30%;
   }
 }/*# sourceMappingURL=style.css.map */
