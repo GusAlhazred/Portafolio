@@ -27,6 +27,12 @@ $xxl: 1400px;
         visibility: hidden;
         width: 1px;
         height: 1px;
+        ul li{
+            width: 1px;
+            a .botonNav{
+                width: 1px;
+            }
+        }
     }
     .navBarChica{
         visibility: visible;
