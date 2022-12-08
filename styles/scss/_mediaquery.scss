@@ -23,7 +23,10 @@ $xxl: 1400px;
     }
     .navBarGrande{
         position: absolute;
+        top:-10px;
         visibility: hidden;
+        width: 1px;
+        height: 1px;
     }
     .navBarChica{
         visibility: visible;
