@@ -42,6 +42,21 @@ article {
   background-color: #333;
   box-shadow: inset -3px -3px 30px #001220, inset 1px 1px 10px #bbb, 0 10px 10px #001220;
 }
+article .fotoProyecto {
+  width: 80%;
+  aspect-ratio: 2/1;
+  margin-left: 10%;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 200ms;
+  filter: grayscale(1);
+}
+article .fotoProyecto:hover {
+  scale: 1.1;
+  box-shadow: 0.4rem 0 0.6rem #bbb, 0 0.4rem 0.6rem #bbb, -0.4rem 0 0.6rem #bbb, 0 -0.4rem 0.6rem #bbb;
+  filter: grayscale(0);
+}
 
 ::-webkit-scrollbar {
   width: 0.8rem;

@@ -14,7 +14,6 @@ html{
 body{
     width: 100vw;
     overflow-x: hidden;
-    
 }
 h1{
     text-shadow: .1rem .1rem .5rem $gris;
@@ -48,6 +47,24 @@ article{
                 inset 1px 1px 10px $blanco,
                 0 10px 10px $negro
                 ;
+    .fotoProyecto{
+        width: 80%;
+        aspect-ratio: 2/1;
+        margin-left: 10%;
+        border-radius: 10px;
+        object-fit:cover;
+        transition: 200ms;
+        filter:grayscale(1);
+        &:hover{
+            scale: 1.1;
+            box-shadow: .4rem 0 .6rem $blanco,
+                        0 .4rem .6rem $blanco,
+                        -.4rem  0 .6rem $blanco,
+                        0 -.4rem .6rem $blanco
+            ;
+        filter:grayscale(0);
+        }
+    }
 }
 
 
