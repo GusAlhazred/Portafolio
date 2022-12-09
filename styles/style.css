@@ -222,8 +222,8 @@ header .flecha::before {
   border-radius: 10px;
   -o-object-fit: cover;
      object-fit: cover;
-  transition: 200ms;
-  filter: grayscale(1);
+  transition: 400ms;
+  filter: grayscale(0.8);
 }
 .fotoProyecto:hover {
   scale: 1.1;

@@ -4,8 +4,8 @@
     margin-left: 10%;
     border-radius: 10px;
     object-fit:cover;
-    transition: 200ms;
-    filter:grayscale(1);
+    transition: 400ms;
+    filter:grayscale(.8);
     &:hover{
         scale: 1.1;
         box-shadow: .4rem 0 .6rem $blanco,
